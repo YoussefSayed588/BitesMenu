@@ -98,6 +98,11 @@ body {
 
 .header {
     background-color: #f0f0f0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
 .header .container {
@@ -195,7 +200,7 @@ body {
 
 h1 {
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
 }
 
 /* End of Offers Section */
